@@ -1,0 +1,14 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "02-笔记/闪念笔记",
+  "attachmentFolderPath": "05-资源/附件",
+  "showUnsupportedFiles": false,
+  "showLineNumber": true,
+  "spellcheck": false,
+  "tabSize": 2,
+  "useTab": false,
+  "vimMode": false,
+  "openBehavior": "daily"
+}
