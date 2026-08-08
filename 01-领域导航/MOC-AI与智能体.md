@@ -29,6 +29,9 @@ flowchart LR
 
 ## 📚 学习资源
 
+- [[动手学深度学习笔记/VMware环境配置手册|VMware 上配置 d2l 环境 · 完整手册]]
+- [[动手学深度学习笔记/python前置知识|动手学深度学习 · Python 前置知识]]
+
 - [[动手学深度学习笔记/python前置知识|动手学深度学习 · Python 前置知识]]
 - [[指南/Universal-Diagnostic-Tutor使用指南|Universal Diagnostic Tutor 使用指南]]
 
