@@ -1,5 +1,6 @@
 ﻿---
 created: 2026-07-17
+updated: 2026-08-08
 type: moc
 aliases: [AI, 人工智能, 智能体, Agent]
 ---
@@ -26,6 +27,11 @@ flowchart LR
 - [[多Agent协作模式|多 Agent 协作模式]]
 - [[机器人/Koishi机器人框架|Koishi 机器人框架与插件架构]]
 
+## 📚 学习资源
+
+- [[动手学深度学习笔记/python前置知识|动手学深度学习 · Python 前置知识]]
+- [[指南/Universal-Diagnostic-Tutor使用指南|Universal Diagnostic Tutor 使用指南]]
+
 ## 📂 概念笔记
 ```dataview
 TABLE created as "创建", updated as "更新"
@@ -34,16 +40,13 @@ SORT updated DESC
 ```
 
 ## 🛠️ 项目实战
-```dataview
-TABLE status as "状态"
-FROM "04-项目" and #ai
-SORT status DESC
-```
+
+- [[../03-项目/qq机器人项目优化|QQ 机器人项目优化]]
 
 ## 📡 Horizon 日报中的 AI 资讯
 ```dataview
 TABLE date as "日期"
-FROM "06-日报存档"
+FROM "07-日报"
 WHERE contains(file.name, "zh")
 SORT file.name DESC
 LIMIT 5

@@ -1,4 +1,4 @@
-# 动手学深度学习（d2l.ai）前置知识笔记
+﻿# 动手学深度学习（d2l.ai）前置知识笔记
 
 > 适用于李沐《动手学深度学习》v2 版（PyTorch）
 > 目标：开课前补齐真正会用到的 Python/NumPy/数学基础，避免学一半卡在工具上
@@ -394,3 +394,10 @@ print(f'耗时: {time.time() - start:.2f}s')
 3. **`x.numpy()` 需要 tensor 在 CPU 上**：GPU tensor 要先用 `.cpu()`。
 4. **`with torch.no_grad():`**：推理/评估时记得关掉梯度计算，否则会爆显存。
 5. **`model.train()` vs `model.eval()`**：影响 Dropout 和 BatchNorm 行为，推理前必须切 eval 模式。
+
+
+---
+
+## 关联笔记
+
+- [[MOC-AI与智能体|AI 与智能体 MOC]]
